@@ -33,14 +33,14 @@
     <div id="app">
         <div class="row">
             <div class="col-md-8">
-                <div class="shadow border-sm" style="margin-bottom: 1rem;" v-for="item in list">
+                <div class="border-sm" style="margin-bottom: 1rem;" v-for="item in list">
                     <div class="card-body">
-                        <h2 class="card-title ">
+                        <h2 class="card-title" style="color:#70ADD1 ">
                             <i :class="`mdi ${item.icon.replace(':','-')}`"></i>
                             {{item.name}}
                         </h2>
                         <hr class="divider">
-                        <p style="overflow:auto;">
+                        <p style="overflow:auto;color:#92B4F2">
                             {{item.link}}
                         </p>
                         <div style="text-align: right;">
@@ -57,7 +57,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="shadow border-sm" style="margin-bottom: 1rem;">
+                <div class="border-sm" style="margin-bottom: 1rem;">
                     <div class="card-body">
                         <h2 class="card-title ">版本：{{ver}}</h2>
                         <hr class="divider">
@@ -88,7 +88,7 @@
                         <input class="input border" type="text" placeholder="侧边栏名称" v-model.trim="formData.name">
                     </div>
                     <legend class="legend"><a href="https://unpkg.com/@mdi/font@6.4.95/preview.html"
-                            style="color: #0000008a;" target="_blank">图标</a></legend>
+                                              style="color: #71AED3;" target="_blank"><u>图标</u></a></legend>
                     <div>
                         <input class="input border" type="text" placeholder="mdi:link（点击图标选择吧）"
                             v-model.trim="formData.icon">
