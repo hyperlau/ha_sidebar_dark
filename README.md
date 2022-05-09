@@ -4,13 +4,16 @@
 
 # 使用方式
 
-> 可以在集成里搜索侧边栏管理
+> 在configuration.yaml添加：
 
 ```
 ha_sidebar:
 ```
 
 # 更新日志
+
+### v2.1.3
+- 修改UI为dark style
 
 ### v2.1.2
 - 点击编辑时页面回到顶部
