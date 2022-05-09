@@ -10,7 +10,7 @@ from .const import DOMAIN
 
 _LOGGER = logging.getLogger(__name__)
 
-VERSION = '2.1.2'
+VERSION = '2.1.3'
 URL = '/ha_sidebar-api'
 ROOT_PATH = '/ha_sidebar-local/' + VERSION
 StorageFile = 'ha_sidebar.yaml'
@@ -44,11 +44,12 @@ def setup(hass, config):
     # 显示插件信息
     _LOGGER.info('''
 -------------------------------------------------------------------
-    侧边栏管理【作者QQ：635147515】
+    侧边栏管理【原作者QQ：635147515】
     
     版本：''' + VERSION + '''    
         
     项目地址：https://github.com/shaonianzhentan/ha_sidebar
+    dark style版地址：https://github.com/hyperlau/ha_sidebar_dark
 -------------------------------------------------------------------''')
     return True
 
