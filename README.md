@@ -2,7 +2,7 @@
 forked from shaonianzhentan/ha_sidebar (https://github.com/shaonianzhentan/ha_sidebar) 感谢原作者！
 - 在HA里使用的侧边栏管理
 - UI修改为dark style
-
+![image](https://github.com/hyperlau/ha_sidebar_dark/blob/master/ha_sidebar_dark.png)
 
 # 使用方式
 
