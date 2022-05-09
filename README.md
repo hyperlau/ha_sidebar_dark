@@ -1,6 +1,7 @@
-# ha_sidebar
+# ha_sidebar_dark
 forked from shaonianzhentan/ha_sidebar (https://github.com/shaonianzhentan/ha_sidebar) 感谢原作者！
-在HA里使用的侧边栏管理
+- 在HA里使用的侧边栏管理
+- UI修改为dark style
 
 
 # 使用方式
