@@ -1,5 +1,5 @@
 body {
-    background-color: #ebecf0;
+    background-color: #212121;
     padding: 10px;
 }
 
@@ -4715,7 +4715,7 @@ button {
     transition: .3s ease;
     transition-property: box-shadow, transform;
     font-size: 13.3333px;
-    box-shadow: 12px 12px 16px 0 #d4d4d4, -8px -8px 16px #fff
+    color: #ececec
 }
 
 .btn-sm {
@@ -4728,15 +4728,12 @@ button {
 }
 
 .btn:hover {
-    box-shadow: 4px 4px 7px 0 #d4d4d4, -4px -4px 10px #fff
 }
 
 .btn-cleary:hover {
-    box-shadow: 12px 12px 16px 0 #d4d4d4, -8px -8px 16px #fff
 }
 
 .btn:focus {
-    box-shadow: 0 0 0 rgba(0, 0, 0, .2), 0 0 0 rgba(255, 255, 255, .8), inset -8px -8px 20px rgb(255 255 255 / .31), inset 5px 5px 8px #2c2c2c38
 }
 
 .btn:disabled {
@@ -4749,12 +4746,11 @@ button {
 }
 
 .btn-default {
-    background: linear-gradient(145deg, #fff, #e6e6e6);
-    color: #000
+    background: #343434;
+    color: #ececec
 }
 
 .btn-default:hover {
-    background: linear-gradient(145deg, #fff, #dadada)
 }
 
 .btn-default:disabled {
@@ -4764,7 +4760,6 @@ button {
 }
 
 .btn-default:focus {
-    background: linear-gradient(145deg, #fff, #dadada)
 }
 
 .btn-primary {
@@ -4891,7 +4886,7 @@ button {
 }
 
 .shadow {
-    box-shadow: -6px -5px 10px white, 0px 4px 15px rgba(0, 0, 0, 0.15)
+    box-shadow: -6px -5px 10px black, 0px 4px 15px rgba(0, 0, 0, 0.15)
 }
 
 .shadow-sm {
@@ -4915,6 +4910,7 @@ button {
 }
 
 .border-sm {
+    background-color: #3b3a3b;
     border-radius: 10px
 }
 
@@ -4962,21 +4958,18 @@ hr {
 }
 
 .input {
-    color: #868a9a;
-    text-shadow: 1px 1px 0 #fff;
+    color: #E8EAED;
     padding: 16px;
-    background-color: #ffffff00;
+    background-color: #3b3a3b;
     font-size: 16px;
     width: 100%;
     border: 0;
     outline: 0;
     box-sizing: border-box;
-    box-shadow: inset 2px 2px 6px #babecc, inset -4px -5px 8px #fff;
     transition: all .2s ease-in-out
 }
 
 .input:hover {
-    box-shadow: inset 2px 2px 2px #babecc, inset -1px -2px 5px #fff
 }
 
 .textarea {
@@ -5008,7 +5001,7 @@ hr {
     width: 100%;
     font-size: 1.4rem;
     margin-bottom: 1rem;
-    color: #0000008a
+    color: #e0e0e0
 }
 
 .select {
@@ -5016,8 +5009,7 @@ hr {
     border: 0;
     border-radius: 20px;
     padding: 15px;
-    box-shadow: -6px -5px 12px white, 0px 4px 15px rgba(0, 0, 0, 0.15);
-    background-color: #ffffff00;
+    background-color: #3b3a3b;
     color: #868a9a
 }
 
@@ -5046,7 +5038,7 @@ hr {
     -moz-appearance: none;
     transition: .2s ease-in-out;
     transition-property: box-shadow;
-    box-shadow: -6px -5px 12px white, 0px 4px 15px rgba(0, 0, 0, 0.15);
+    box-shadow: -6px -5px 12px black, 0px 4px 15px rgba(0, 0, 0, 0.15);
     cursor: pointer
 }
 
